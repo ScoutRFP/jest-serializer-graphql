@@ -1,0 +1,33 @@
+{
+  "name": "jest-serializer-graphql",
+  "version": "0.0.1",
+  "description": "Jest snapshot serializer for GraphQL queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScoutRFP/jest-serializer-graphql.git"
+  },
+  "keywords": [
+    "jest",
+    "graphql",
+    "serializer",
+    "serialiser"
+  ],
+  "author": "ScoutRFP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScoutRFP/jest-serializer-graphql/issues"
+  },
+  "homepage": "https://github.com/ScoutRFP/jest-serializer-graphql#readme",
+  "dependencies": {
+    "graphql": "^0.13.2",
+    "indent-string": "^3.2.0",
+    "lodash.get": "^4.4.2",
+    "lodash.trimend": "^4.5.1",
+    "lodash.trimstart": "^4.5.1",
+    "pretty-format": "^22.4.3"
+  }
+}
