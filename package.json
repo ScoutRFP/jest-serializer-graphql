@@ -4,7 +4,8 @@
   "description": "Jest snapshot serializer for GraphQL queries",
   "main": "index.js",
   "scripts": {
-    "test": "yarn test"
+    "test": "jest",
+    "test:watch": "yarn test -- --watch"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,10 @@
     "lodash.trimend": "^4.5.1",
     "lodash.trimstart": "^4.5.1",
     "pretty-format": "^22.4.3"
+  },
+  "devDependencies": {
+    "graphql-tag": "^2.9.2",
+    "jest": "^22.4.3",
+    "jest-transform-graphql": "^2.1.0"
   }
 }
