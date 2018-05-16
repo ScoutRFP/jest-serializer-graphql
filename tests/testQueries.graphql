@@ -1,0 +1,32 @@
+mutation CreateItem($name: String!) {
+  create(input: { name: $name }) {
+    item {
+      id
+      name
+    }
+  }
+}
+
+mutation DestroyItem($id: ID!) {
+  destroy(input: { id: $id }) {
+    item {
+      id
+    }
+  }
+}
+
+mutation UpdateItem($id: ID!, $name: String!) {
+  update(input: { id: $id, name: $name }) {
+    item {
+      id
+      name
+    }
+  }
+}
+
+query ListItems {
+  items {
+    id
+    name
+  }
+}

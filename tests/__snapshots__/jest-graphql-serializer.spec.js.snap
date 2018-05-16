@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`serializer serialization function with depth returns formatted and indented query 1`] = `
+"\\"query ListItems {
+             items {
+               id
+               name
+             }
+           }\\""
+`;
+
+exports[`serializer serialization function with no depth returns formatted query 1`] = `
+"\\"query ListItems {
+  items {
+    id
+    name
+  }
+}\\""
+`;
