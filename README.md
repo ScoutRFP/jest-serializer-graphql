@@ -43,7 +43,9 @@ expect(shallow(<FormWithMutation />)).toMatchSnapshot();
        }
     }"
   }
-/>
+>
+  <Form />
+</Mutation>
 ```
 
 ## Installation and configuration
