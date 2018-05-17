@@ -1,6 +1,6 @@
 {
   "name": "jest-serializer-graphql",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Jest snapshot serializer for GraphQL queries",
   "main": "index.js",
   "scripts": {
