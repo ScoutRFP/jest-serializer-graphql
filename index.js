@@ -1,5 +1,5 @@
 var print = require('graphql/language/printer').print;
-var prettyFormat = require('pretty-format');
+var prettyFormat = require('pretty-format').format;
 var indentString = require('indent-string');
 var get = require('lodash.get');
 var trimStart = require('lodash.trimstart');
